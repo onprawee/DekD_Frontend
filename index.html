@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dek-D : Intern Front-end Developer  </title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Sildes Show Container -->
+    <div class="container">
+        <div class="sildes fade">
+            <img src="img/img1.jpg">
+            <div class="text">Photo by Sophie on Unsplash</div>
+        </div>
+        <div class="sildes fade">
+            <img src="img/img2.jpg">
+            <div class="text">Photo by Baptiste on Unsplash</div>
+        </div>
+        <div class="sildes fade">
+            <img src="img/img3.jpg">
+            <div class="text">Photo by XPS on Unsplash</div>
+        </div>
+        <div class="sildes fade">
+            <img src="img/img4.jpg">
+            <div class="text">Photo by Alexandra Nicolae on Unsplash</div>
+        </div>
+        <div class="sildes fade">
+            <img src="img/img5.jpg">
+            <div class="text">Photo by Jan Valečka on Unsplash</div>
+        </div>
+        <!-- Button -->
+        <a class="prev" onclick="plusSlides(-1)"> &#10094; </a>
+        <a class="next" onclick="plusSlides(1)"> &#10095; </a>
+    </div> 
+     <!-- Select Slide from dot -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
