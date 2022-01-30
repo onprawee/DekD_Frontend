@@ -13,9 +13,9 @@ function plusSlides(n) {
 
 //Function ShowSlides 
 function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("sildes");
-  var dots = document.getElementsByClassName("dot");
+  let i;
+  let slides = document.getElementsByClassName("sildes");
+  let dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
